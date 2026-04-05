@@ -9,9 +9,10 @@
 ## Run tests
 ```bash
 pytest
+```
 
-## Positive case 
-
+## Positive case
+```
 import allure
 from pages.form_page import FormPage
 
@@ -35,10 +36,12 @@ def test_fill_form(driver):
     )
 
     assert alert_text == "Message received!"
+    ```
 
 
 ## Negative case 
 
+```
 import allure
 from pages.form_page import FormPage
 
@@ -62,3 +65,4 @@ def test_fill_form(driver):
     )
 
     assert alert_text == "Message received!"
+    ```
