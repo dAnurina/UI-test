@@ -9,7 +9,7 @@ def test_fill_form(driver):
 
     alert_text = (
         form.open()
-            .enter_name("A" * 1000)
+            .enter_name("Test User")
             .enter_password("123456")
             .select_drinks()
             .select_color()
